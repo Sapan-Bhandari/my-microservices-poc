@@ -1,0 +1,28 @@
+HELP.md
+# Compiled class files
+*.class
+
+# Eclipse files
+.settings/
+.classpath
+.project
+
+# Maven target/ and Gradle build/ directories
+target/
+build/
+
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE specific files
+.idea/
+*.iml
+
+# Database credentials or local properties
+config.properties
+
+# DS_Store files
+.DS_Store

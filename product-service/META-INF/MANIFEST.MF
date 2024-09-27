@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: Maven Jar Plugin 3.2.0
+Build-Jdk-Spec: 21
+Specification-Title: product-service
+Specification-Version: 0.0
+Implementation-Title: product-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: com.example.product.ProductServiceApplication
+
