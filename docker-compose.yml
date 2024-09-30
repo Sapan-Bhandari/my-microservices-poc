@@ -24,6 +24,8 @@ services:
       POSTGRES_PASSWORD: sabhanda
     ports:
       - "5433:5432"  # Expose order-db on port 5433
+    volumes:
+      - order_db_data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 10s
@@ -55,6 +57,8 @@ services:
       POSTGRES_PASSWORD: sabhanda
     ports:
       - "5434:5432"  # Expose product-db on port 5434 to avoid conflict
+    volumes:
+      - product_db_data:/var/lib/postgresql/data  
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 10s
@@ -66,3 +70,7 @@ services:
 networks:
   app-network:
     driver: bridge
+    
+volumes:
+  order_db_data: # Named volume for order-db (docker handles it automatically)
+  product_db_data: # Named volume for product-db
