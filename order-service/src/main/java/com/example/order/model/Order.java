@@ -1,6 +1,8 @@
 package com.example.order.model;
 
 import javax.persistence.Entity;
+import lombok.Getter;
+import lombok.Setter;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.GeneratedValue;
@@ -11,25 +13,10 @@ import javax.persistence.GenerationType;
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Getter @Setter
     private Long id;
+    @Getter @Setter
     private Long productId;  // Reference to Product
+    @Getter @Setter
     private Integer quantity;
-	public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public Long getProductId() {
-		return productId;
-	}
-	public void setProductId(Long productId) {
-		this.productId = productId;
-	}
-	public Integer getQuantity() {
-		return quantity;
-	}
-	public void setQuantity(Integer quantity) {
-		this.quantity = quantity;
-	}
 }

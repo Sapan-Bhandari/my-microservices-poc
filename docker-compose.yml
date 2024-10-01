@@ -13,6 +13,8 @@ services:
       SPRING_DATASOURCE_PASSWORD: sabhanda
     depends_on:
       - order-db
+    volumes:
+      - ./order-service/logs:/app/logs
     networks:
       - app-network
 
