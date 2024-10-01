@@ -48,6 +48,8 @@ services:
       SPRING_DATASOURCE_PASSWORD: sabhanda
     depends_on:
       - product-db
+    volumes:
+      - ./product-service/logs:/app/logs
     networks:
       - app-network
 
