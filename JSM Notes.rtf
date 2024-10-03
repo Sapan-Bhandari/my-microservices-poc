@@ -65,3 +65,20 @@ productdb=# select * from product;
   2 | Product 2 | 12.99
   3 | Product 3 | 17.99
 (3 rows)
+
+Set up SonarQube using docker
+
+docker pull sonarqube
+docker run -d --name sonarqube -p 9000:9000 sonarqube
+Access SonarQube: http://localhost:9000
+Username: admin
+Password: admin
+Change password
+
+Download the latest SonarScanner zip file for windows and add bin directory to environment path variable
+Generate sonar token: My account -> Security and update sonar properties file
+
+Run spring boot application using docker in one terminal
+Make sure sonar-qube is running using docker
+Run sonar-scanner by navigating to spring boot project directory: sonar-scanner
+
