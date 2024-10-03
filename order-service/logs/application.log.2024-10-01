@@ -1,0 +1,121 @@
+2024-10-01 09:43:03 - Starting OrderServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 3cead14f78b3 with PID 1 (/order-service.jar started by root in /)
+2024-10-01 09:43:03 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 09:43:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01 09:43:04 - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2024-10-01 09:43:05 - Tomcat initialized with port(s): 8082 (http)
+2024-10-01 09:43:05 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-01 09:43:05 - Starting service [Tomcat]
+2024-10-01 09:43:05 - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-10-01 09:43:05 - Initializing Spring embedded WebApplicationContext
+2024-10-01 09:43:05 - Root WebApplicationContext: initialization completed in 1997 ms
+2024-10-01 09:43:05 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-01 09:43:06 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-01 09:43:06 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-01 09:43:06 - HikariPool-1 - Starting...
+2024-10-01 09:43:06 - HikariPool-1 - Start completed.
+2024-10-01 09:43:06 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-01 09:43:07 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-01 09:43:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 09:43:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01 09:43:08 - Starting ProtocolHandler ["http-nio-8082"]
+2024-10-01 09:43:08 - Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-01 09:43:08 - Started OrderServiceApplication in 6.166 seconds (JVM running for 6.886)
+2024-10-01 09:43:23 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-01 09:43:23 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 09:43:23 - Completed initialization in 1 ms
+2024-10-01 09:43:23 - Updating order with id: 5
+2024-10-01 09:58:09 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 09:58:09 - HikariPool-1 - Shutdown initiated...
+2024-10-01 09:58:09 - HikariPool-1 - Shutdown completed.
+2024-10-01 10:11:08 - Starting OrderServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 9640f40c9a2a with PID 1 (/order-service.jar started by root in /)
+2024-10-01 10:11:08 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 10:11:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01 10:11:09 - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2024-10-01 10:11:10 - Tomcat initialized with port(s): 8082 (http)
+2024-10-01 10:11:10 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-01 10:11:10 - Starting service [Tomcat]
+2024-10-01 10:11:10 - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-10-01 10:11:10 - Initializing Spring embedded WebApplicationContext
+2024-10-01 10:11:10 - Root WebApplicationContext: initialization completed in 1987 ms
+2024-10-01 10:11:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-01 10:11:10 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-01 10:11:10 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-01 10:11:10 - HikariPool-1 - Starting...
+2024-10-01 10:11:11 - HikariPool-1 - Start completed.
+2024-10-01 10:11:11 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-01 10:11:12 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-01 10:11:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 10:11:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01 10:11:13 - Starting ProtocolHandler ["http-nio-8082"]
+2024-10-01 10:11:13 - Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-01 10:11:13 - Started OrderServiceApplication in 6.278 seconds (JVM running for 7.059)
+2024-10-01 10:11:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-01 10:11:28 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 10:11:28 - Completed initialization in 1 ms
+2024-10-01 10:11:28 - Updating order with id: 5
+2024-10-01 10:12:57 - Deleting order with id: 5
+2024-10-01 10:12:58 - Order with id 5 deleted successfully
+2024-10-01 10:14:15 - Deleting order with id: 7
+2024-10-01 10:14:15 - Order with id 7 not found for deletion
+2024-10-01 10:53:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 10:53:49 - HikariPool-1 - Shutdown initiated...
+2024-10-01 10:53:49 - HikariPool-1 - Shutdown completed.
+2024-10-01 11:12:30 - Starting OrderServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 24d622baf99d with PID 1 (/order-service.jar started by root in /)
+2024-10-01 11:12:30 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 11:12:31 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01 11:12:32 - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2024-10-01 11:12:32 - Tomcat initialized with port(s): 8082 (http)
+2024-10-01 11:12:32 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-01 11:12:32 - Starting service [Tomcat]
+2024-10-01 11:12:32 - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-10-01 11:12:33 - Initializing Spring embedded WebApplicationContext
+2024-10-01 11:12:33 - Root WebApplicationContext: initialization completed in 2221 ms
+2024-10-01 11:12:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-01 11:12:33 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-01 11:12:33 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-01 11:12:33 - HikariPool-1 - Starting...
+2024-10-01 11:12:34 - HikariPool-1 - Start completed.
+2024-10-01 11:12:34 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-01 11:12:35 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-01 11:12:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 11:12:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01 11:12:36 - Starting ProtocolHandler ["http-nio-8082"]
+2024-10-01 11:12:36 - Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-01 11:12:36 - Started OrderServiceApplication in 7.228 seconds (JVM running for 8.16)
+2024-10-01 11:12:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-01 11:12:43 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 11:12:43 - Completed initialization in 1 ms
+2024-10-01 11:15:05 - Init duration for springdoc-openapi is: 373 ms
+2024-10-01 11:19:27 - Updating order with id: 4
+2024-10-01 11:20:00 - Updating order with id: 4
+2024-10-01 11:22:22 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 11:22:22 - HikariPool-1 - Shutdown initiated...
+2024-10-01 11:22:22 - HikariPool-1 - Shutdown completed.
+2024-10-01 11:51:47 - Starting OrderServiceApplication v0.0.1-SNAPSHOT using Java 11.0.16 on 3ab82f0f30a0 with PID 1 (/order-service.jar started by root in /)
+2024-10-01 11:51:47 - No active profile set, falling back to 1 default profile: "default"
+2024-10-01 11:51:48 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-01 11:51:48 - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2024-10-01 11:51:49 - Tomcat initialized with port(s): 8082 (http)
+2024-10-01 11:51:49 - Initializing ProtocolHandler ["http-nio-8082"]
+2024-10-01 11:51:49 - Starting service [Tomcat]
+2024-10-01 11:51:49 - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-10-01 11:51:49 - Initializing Spring embedded WebApplicationContext
+2024-10-01 11:51:49 - Root WebApplicationContext: initialization completed in 1901 ms
+2024-10-01 11:51:50 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-01 11:51:50 - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-01 11:51:50 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-01 11:51:50 - HikariPool-1 - Starting...
+2024-10-01 11:51:50 - HikariPool-1 - Start completed.
+2024-10-01 11:51:50 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-10-01 11:51:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-01 11:51:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 11:51:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-01 11:51:52 - Starting ProtocolHandler ["http-nio-8082"]
+2024-10-01 11:51:52 - Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-01 11:51:53 - Started OrderServiceApplication in 6.035 seconds (JVM running for 6.817)
+2024-10-01 11:52:26 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-01 11:52:26 - Initializing Servlet 'dispatcherServlet'
+2024-10-01 11:52:26 - Completed initialization in 3 ms
+2024-10-01 11:56:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-01 11:56:13 - HikariPool-1 - Shutdown initiated...
+2024-10-01 11:56:13 - HikariPool-1 - Shutdown completed.
