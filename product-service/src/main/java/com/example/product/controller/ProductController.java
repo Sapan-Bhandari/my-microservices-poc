@@ -2,6 +2,7 @@ package com.example.product.controller;
 
 import com.example.product.model.Product;
 import com.example.product.repository.ProductRepository;
+import com.example.product.exception.ProductNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import lombok.extern.slf4j.Slf4j;
@@ -48,7 +49,7 @@ public class ProductController {
 
 			return productRepository.save(existingProduct);
 		} else {
-			throw new RuntimeException("Product not found with id: " + id);
+			throw new ProductNotFoundException(id);
 		}
 	}
 
@@ -60,7 +61,7 @@ public class ProductController {
 			productRepository.deleteById(id);
 			return "Product deleted successfully";
 		} else {
-			throw new RuntimeException("Product not found with id: " + id);
+			throw new ProductNotFoundException(id);
 		}
 	}
 }

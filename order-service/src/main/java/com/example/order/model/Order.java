@@ -19,4 +19,21 @@ public class Order {
     private Long productId;  // Reference to Product
     @Getter @Setter
     private Integer quantity;
+    
+    // Default constructor (required by JPA)
+    public Order() {
+    }
+
+    // Parameterized constructor
+    public Order(Long productId, Integer quantity) {
+        this.productId = productId;
+        this.quantity = quantity;
+    }
+    
+    // All-arguments constructor
+    public Order(Long id, Long productId, Integer quantity) {
+        this.id = id;
+        this.productId = productId;
+        this.quantity = quantity;
+    }
 }
